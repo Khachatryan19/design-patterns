@@ -1,6 +1,6 @@
 <?php
 
-require_once 'ButtonInterface.php';
+namespace Factory;
 
 class WinButton implements ButtonInterface {
     public function paint(): string

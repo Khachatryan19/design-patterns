@@ -1,7 +1,6 @@
 <?php
 
-require_once 'ButtonInterface.php';
-require_once 'CheckboxInterface.php';
+namespace Factory;
 
 abstract class GUIFactory
 {

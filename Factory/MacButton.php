@@ -1,6 +1,6 @@
 <?php
 
-require_once 'ButtonInterface.php';
+namespace Factory;
 
 class MacButton implements ButtonInterface
 {

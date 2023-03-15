@@ -1,10 +1,6 @@
 <?php
 
-require_once 'GUIFactory.php';
-require_once 'WinButton.php';
-require_once 'WinCheckbox.php';
-require_once 'ButtonInterface.php';
-require_once 'CheckboxInterface.php';
+namespace Factory;
 
 class Windows extends GUIFactory {
     public function button(): ButtonInterface
